@@ -1,0 +1,30 @@
+%% -*- mode: LaTeX; TeX-PDF-mode: nil; LaTeX-command: "xelatex " -*-
+\documentclass[a4paper]{article}
+
+%\usepackage{multicol}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+
+%\setmainlanguage{english}
+%\setotherlanguage{arabic}
+
+\setmainlanguage{arabic}
+\setotherlanguage{english}
+
+%\newfontfamily\greekfont{Gentium}
+% \setmainlanguage{arabic}
+\newfontfamily\arabicfont[Script=Arabic]{Amiri}
+
+%\usepackage{gb4e}	   
+\usepackage{covington}
+
+\begin{document}
+
+\begin{tabular}{rr}
+  & هُوَ \\
+  &   \\
+\end{tabular}
+
+
+
+\end{document}

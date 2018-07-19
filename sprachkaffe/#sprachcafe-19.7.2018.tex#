@@ -1,0 +1,45 @@
+%% -*- mode: LaTeX; TeX-PDF-mode: nil; LaTeX-command: "xelatex " -*-
+\documentclass[a4paper]{article}
+
+%\usepackage{multicol}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+
+%\setmainlanguage{english}
+%\setotherlanguage{arabic}
+
+\setmainlanguage{arabic}
+\setotherlanguage{english}
+
+%\newfontfamily\greekfont{Gentium}
+% \setmainlanguage{arabic}
+\newfontfamily\arabicfont[Script=Arabic]{Amiri}
+
+%\usepackage{gb4e}	   
+\usepackage{covington}
+
+\begin{document}
+
+
+\setmainlanguage{english}
+\setotherlanguage{arabic}
+
+\begin{example}
+   \xglll %\textgreek{οὐ θέλω δὲ ὑμᾶς ἀγνοεῖν, ἀδελφοί, ὅτι πολλάκις προεθέμην ἐλθεῖν}
+   \textarabic{الاسَّدُ والفارُ}\xgle
+ ou thelo: de huma:s agnoein adelphoi hoti polakis proetheme:n elthein \xgle 
+ not want.1Sg but you.Acc.Pl be.ignorant.Pres.Inf brothers.Voc that often planned.1Sg come.Aor.Inf \xgle
+ \glt `But I don't want you to be unaware, brothers, that many times I   planned to come.' 
+ \glend
+ \hfill (Rom 1.13)
+\end{example}
+ % grammaire:
+% \begin{exe}
+% \ex 
+% \gll Кот ест сметану\\
+% cat.NOM eat.3.SG.PRS sour-cream.ACC\\
+% \trans `The cat eats sour cream'
+% \end{exe}
+
+
+\end{document}

@@ -1,0 +1,126 @@
+%% -*- mode: LaTeX; TeX-PDF-mode: nil; LaTeX-command: "xelatex " -*-
+\documentclass[a4paper]{article}
+%\usepackage{media9}
+\usepackage{hyperref}
+%\usepackage{attachfile}
+\usepackage{multicol}
+\usepackage{polyglossia}
+%\usepackage[hmargin=1cm, vmargin=1cm]{geometry}
+\setmainlanguage{arabic}
+%\newfontfamily\arabicfont[Path=/home/olivier/arab/latex/amiri-0.109/, Script=Arabic]{amiri}
+%\newfontfamily\arabicfont[Script=Arabic,WordSpace=2]{Amiri}
+%\newfontfamily\arabicfont[Script=Arabic]{Amiri Bold}
+\newfontfamily\arabicfont[Script=Arabic]{Amiri}
+%\newfontfamily\arabicfont[Script=Arabic]{Lateef}
+% \newfontfamily\arabicfont[Script=Arabic]{Scheherazade Bold}
+%Scheherazade-Regular
+% \newfontfamily\arabicfont[Path=/home/olivier/arab/latex/amiri-0.109/, UprightFont = *-regular, BoldFont = *-bold,Script=Arabic]{amiri}
+%\newfontfamily\arabicfont[Script=Arabic]{amiri}
+
+%\usepackage{arabxetex}
+
+%\pagestyle{empty}
+
+\package{gb4e}
+
+\XeTeXinterchartokenstate=1
+\newXeTeXintercharclass\confb % connect back
+\newXeTeXintercharclass\conb  % connect front back
+\newXeTeXintercharclass\alif  % alif
+\newXeTeXintercharclass\lam   % lam
+
+\XeTeXcharclass `\ي=\confb 
+\XeTeXcharclass `\ئ=\confb
+\XeTeXcharclass `\ه=\confb
+\XeTeXcharclass `\ش=\confb
+\XeTeXcharclass `\س=\confb
+\XeTeXcharclass `\ق=\confb
+\XeTeXcharclass `\ف=\confb
+\XeTeXcharclass `\غ=\confb
+\XeTeXcharclass `\ع=\confb
+\XeTeXcharclass `\ض=\confb
+\XeTeXcharclass `\ص=\confb
+\XeTeXcharclass `\ن=\confb
+\XeTeXcharclass `\م=\confb
+\XeTeXcharclass `\ك=\confb
+\XeTeXcharclass `\ظ=\confb
+\XeTeXcharclass `\ط=\confb
+\XeTeXcharclass `\خ=\confb
+\XeTeXcharclass `\ح=\confb
+\XeTeXcharclass `\ج=\confb
+\XeTeXcharclass `\ث=\confb
+\XeTeXcharclass `\ت=\confb
+\XeTeXcharclass `\ب=\confb
+
+\XeTeXcharclass `\ل=\lam
+
+\XeTeXcharclass `\ا=\alif
+\XeTeXcharclass `\أ=\alif
+\XeTeXcharclass `\إ=\alif
+\XeTeXcharclass `\آ=\alif
+
+\XeTeXcharclass `\و=\conb
+\XeTeXcharclass `\ؤ=\conb
+\XeTeXcharclass `\ذ=\conb
+\XeTeXcharclass `\د=\conb
+\XeTeXcharclass `\ز=\conb
+\XeTeXcharclass `\ر=\conb
+\XeTeXcharclass `\ة=\conb
+
+ \XeTeXinterchartoks \confb \confb = {\kashida{}}
+ \XeTeXinterchartoks \lam \lam     = {\kashida{}}
+ \XeTeXinterchartoks \confb \alif  = {\kashida{}}
+ \XeTeXinterchartoks \confb \lam   = {\kashida{}}
+ \XeTeXinterchartoks \lam \confb   = {\kashida{}}
+ \XeTeXinterchartoks \lam \conb    = {\kashida{}}
+ \XeTeXinterchartoks \confb \conb  = {\kashida{}}
+
+ \newlength\kashidaheight
+ \setlength\kashidaheight{\heightof{\large{\textarabic{ـ}}}}
+ % \setlength\kashidaheight{\heightof{\char"0640}}
+ % \setlength\kashidaheight{\heightof{\textarabic{۔}}}
+ \newlength\kashidadepth
+ \setlength\kashidadepth{\depthof{\large{\textarabic{ـ}}}}
+ % \setlength\kashidadepth{\depthof{\textarabic{\char"0640}}}
+ % \setlength\kashidadepth{\depthof{\textarabic{۔}}}
+
+ 
+\newcommand\kashida[1]{\char"200D
+	    \nobreak\leaders
+		\hrule height \kashidaheight depth \kashidadepth
+		\hskip 0pt plus 100 pt
+	    \nobreak\char"200D}
+
+	   % \renewcommand\kashida{\char"200D} % turn off kashida
+
+	   \frenchspacing
+\title{كليلة ودمن}
+\author{Olivier Büchel}
+\date{\today}
+	   
+
+	\begin{document}
+\maketitle
+﷽
+
+Exercise:
+
+Correct the mistakes.
+
+
+
+\begin{enumerate}
+\item فَاطِم
+\item  السَّيِّدة الدسْنابِيّة تَتَكْلَّمُ 5 لُغات.
+\item هَذِهِ الجارَة كَريمَة جِداً.
+\item  داّءِماً بَعْد الدّرْس, الطَّالِب يدْجعُ  إلى بيتِهِ.
+
+\end{enumerate}
+
+grammaire:
+\begin{exe}
+\ex 
+\gll Кот ест сметану\\
+cat.NOM eat.3.SG.PRS sour-cream.ACC\\
+\trans `The cat eats sour cream'
+\end{exe}
