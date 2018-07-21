@@ -1,0 +1,76 @@
+%% -*- mode: LaTeX; TeX-PDF-mode: nil; LaTeX-command: "xelatex " -*-
+\documentclass[a4paper]{article}
+
+%\usepackage{multicol}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+
+%\setmainlanguage{english}
+%\setotherlanguage{arabic}
+
+\setmainlanguage{arabic}
+\setotherlanguage{english}
+
+%\newfontfamily\greekfont{Gentium}
+% \setmainlanguage{arabic}
+\newfontfamily\arabicfont[Script=Arabic]{Amiri}
+
+%\usepackage{gb4e}	   
+\usepackage{covington}
+
+\begin{document}
+
+
+
+قَرَأَ الوَلَدُ القِصَةَ.
+الطَالِبُ يَتَعَلَّمُ العَرَبِيَّةَ مُنْذُ سَنَةٍ
+أَحَبَّ أَخِي السَّفَرَ وَ دِراسَةَ اللُّغاتِ
+لا تَسْتَطِيعينَ  أَنْ تَحْفَظِي كلّ الكلمات الجديدة
+صَدِيقَتِي مَا أَرادَتْ أَنْ تَذْهَبَ مَعِي إِلَى السِينِمَا
+
+استعمل المصادر لإكمال الجمل:
+1- مَرْيَمُ تُحِبُ الذَّهَابَ إِلَى مصر مَعَ عَائِلَتِهَا (تذهب)
+2- أَنْدْرِيَا تُرِيدُ حِفْظَ كُلَ الكَلِمَاتِ الجَدِيدَةِ. (تحفظ)
+3- أَنَا أُحِبُ قِرَاءَةَ الكُتُبِ الجَيدَةِ. (يقرأ)
+4- التَّدْرِيسُ فِي sprachcaffe مُمْتَازَة. (يدرس)
+5- أُحِبُ السَكَنَ فِي بِرْلِينْ. (يسكن)
+6- أُرِيدُ أَكْلَ الطَاجِينَ المَغْرِبِي دَائِماً. (يأكل)
+
+أَحِبُّ أَنْ أَسْكُنَ فِي مُرَّاكُش.
+أُحِبُّ السَّكَنَ فِي مُرّاكُش.
+هِيَ تُرِيدُ أَنْ تَدْرُسَ العَرَبِيَّة.
+هَيَ تُرِيدُ دِرَاسةَ العَرَبِيَّة.
+لاَ أَسْتَطِيعُ أَنْ أَذْهَبَ مَعَكُمْ
+لاَ أَسْتَطِيعُ الذَّهَابَ مَعَكُمْ
+هُوَ يَتَعَلم العَرَبِيّة لِيَعْمَلَ فِي مِصْر.
+هُوَ يَتَعَلم العَرَبِيّة لِلْعَمَلِ فِي مِصْر.
+أَخِي لاَ يُرِيدُ كِتَابَة الوَاجِبْ
+أَخِي لاَ يُرِيدُ أَنْ يَكْتُبَ الوَاجِب
+ذَهَبْنَا إِلَى المَطْعَم لِنَأْكُلَ الطَاجِين المَغْرِبِيّْ.
+ذَهَبْنَا إِلَى المَطْعَم لِأَكْل الطَاجِين.
+
+\setmainlanguage{english}
+\setotherlanguage{arabic}
+
+\begin{example}
+   \xglll %\textgreek{οὐ θέλω δὲ ὑμᾶς ἀγνοεῖν, ἀδελφοί, ὅτι πολλάκις προεθέμην ἐλθεῖν}
+   \textarabic{الاسَّدُ والفارُ}\xgle
+ ou thelo: de huma:s agnoein adelphoi hoti polakis proetheme:n elthein \xgle 
+ not want.1Sg but you.Acc.Pl be.ignorant.Pres.Inf brothers.Voc that often planned.1Sg come.Aor.Inf \xgle
+ \glt `But I don't want you to be unaware, brothers, that many times I   planned to come.' 
+ \glend
+ \hfill (Rom 1.13)
+\end{example}
+
+
+
+% grammaire:
+% \begin{exe}
+% \ex 
+% \gll Кот ест сметану\\
+% cat.NOM eat.3.SG.PRS sour-cream.ACC\\
+% \trans `The cat eats sour cream'
+% \end{exe}
+
+
+\end{document}
