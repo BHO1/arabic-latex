@@ -4,8 +4,7 @@
 %\usepackage{multicol}
 \usepackage{fontspec}
 \usepackage{polyglossia}
-\usepackage{marginfit}
-\usepackage{abraces}
+
 %\setmainlanguage{english}
 %\setotherlanguage{arabic}
 
@@ -14,105 +13,40 @@
 
 %\newfontfamily\greekfont{Gentium}
 % \setmainlanguage{arabic}
-\newfontfamily\arabicfont[Script=Arabic,Scale=2]{Amiri}
-%\usepackage{refenums}
+\newfontfamily\arabicfont[Script=Arabic]{Amiri}
+
 %\usepackage{gb4e}	   
-%\usepackage{covington}
+\usepackage{covington}
 
 \begin{document}
 
 
-﷽
+% قَرَأَ الوَلَدُ القِصَةَ.
+% الطَالِبُ يَتَعَلَّمُ العَرَبِيَّةَ مُنْذُ سَنَةٍ
+% أَحَبَّ أَخِي السَّفَرَ وَ دِراسَةَ اللُّغاتِ
+% لا تَسْتَطِيعينَ  أَنْ تَحْفَظِي كلّ الكلمات الجديدة
+% صَدِيقَتِي مَا أَرادَتْ أَنْ تَذْهَبَ مَعِي إِلَى السِينِمَا
 
-\begin{center}
-  اللُغت العربية \textenglish{sprachkaffe}  في مدينة الربط
-\end{center}
+% استعمل المصادر لإكمال الجمل:
+% 1- مَرْيَمُ تُحِبُ الذَّهَابَ إِلَى مصر مَعَ عَائِلَتِهَا (تذهب)
+% 2- أَنْدْرِيَا تُرِيدُ حِفْظَ كُلَ الكَلِمَاتِ الجَدِيدَةِ. (تحفظ)
+% 3- أَنَا أُحِبُ قِرَاءَةَ الكُتُبِ الجَيدَةِ. (يقرأ)
+% 4- التَّدْرِيسُ فِي sprachcaffe مُمْتَازَة. (يدرس)
+% 5- أُحِبُ السَكَنَ فِي بِرْلِينْ. (يسكن)
+% 6- أُرِيدُ أَكْلَ الطَاجِينَ المَغْرِبِي دَائِماً. (يأكل)
 
-\section{\textenglish{19.7.2018}}
-
-\begin{enumerate}
-\item  قَرَأَ الوَلَدُ القِصَةَ.
-  \begin{enumerate}
-  \item \textenglish{plural masculin:} قَرَأَ اَلْأَوْلادُ القِصَّةَ.
-  \item \textenglish{dual masculin} قَرَأَ الوَلَدَانِ القِصَّة.
-  \end{enumerate}
-\item الطَالِبُ يَتَعَلَّمُ العَرَبِيَّةَ مُنْذُ سَنَةٍ
-  \begin{enumerate}
-  \item \textenglish{plural masculin}: الطُّلابُ يَتَعَلَّمُونَ العَرَبِيَّةَ مُنْذُ سَنَة.
-  \item \textenglish{verbal sentence}: يَتْعَلَمُ الطّالِبُ العَرَبِيَّةَ مُنْذُ سَنَة.
-  \end{enumerate}
-\item أَحَبَّ أَخِي السَّفَرَ وَ دِراسَةَ اللُّغاتِ.
-\begin{enumerate}
-  \item \textenglish{plural masculin}: أَحَبَّ إِخوتي  السَّفَرَ وَ دِراسَةَ اللُّغاتِ. 
-  \item \textenglish{plural feminin}: أحَبَّتْ أخْتِي  السَّفَرَ وَ دِراسَةَ اللُّغاتِ. 
-  \end{enumerate}
-
-  \textenglish{ad verbal Sentence: when the subject is not exlicit in phrase, the verb take that function and is accorded in plural/singular}
-  
-\item لا تَسْتَطِيعينَ  أَنْ تَحْفَظِي كلّ الكلمات الجديدة. %\margin{\textenglish{blabla}}
-\begin{enumerate}
-  \item \textenglish{plural feminin}: لا تسْتَطِيعينِ أَنْ تَحْفَطْنَ كْلّ  الكلمات الجديدة. 
-  \item \textenglish{plural masculin}: لا يَسْتَطِيعونَ  أَنْ تَحْفَطْنَ كْلّ  الكلمات الجديدة.
-  \end{enumerate}
-\item صَدِيقَتِي مَا أَرادَتْ أَنْ تَذْهَبَ مَعِي إِلَى السِينِمَا
-\begin{enumerate}
-  \item \textenglish{plural feminin}: صَدِيقاتي ما أَرإدْنَ أَنْ يَذْهَبْنَ.
-  \item \textenglish{plural masculin}: أَصْديقاءِي ما أَرادُوا أَن يَذْهَبُوا.
-  \end{enumerate}
-\end{enumerate}  
-\subsection{comments}
-
-(  إِخوة + ي ) = إِخوتي
-
-
-
-
-
-\section{\textenglish{19.7.2018}}
-\subsection{\textenglish{singular, plural}}
-استعمل المصادر لإكمال الجمل:
-
-
-\begin{enumerate}
-\item  مَرْيَمُ تُحِبُ الذَّهَابَ إِلَى مصر مَعَ عَائِلَتِهَا (تذهب)
-\item  أَنْدْرِيَا تُرِيدُ حِفْظَ كُلَ الكَلِمَاتِ الجَدِيدَةِ. (تحفظ)
-  \item  أَنَا أُحِبُ قِرَاءَةَ الكُتُبِ الجَيدَةِ. (يقرأ) 
-\item  التَّدْرِيسُ فِي sprachcaffe مُمْتَازَة. (يدرس)
-\item أُحِبُ السَكَنَ فِي بِرْلِينْ. (يسكن)
-  \item  أُرِيدُ أَكْلَ الطَاجِينَ المَغْرِبِي دَائِماً. (يأكل)
-\end{enumerate}
-
-\subsection{\textenglish{Almasdar}}
-\begin{enumerate}
-\item أَحِبُّ أَنْ أَسْكُنَ فِي مُرَّاكُش.
-  \begin{itemize}
-  \item أُحِبُّ السَّكَنَ فِي مُرّاكُش.
-  \end{itemize}
-\item هِيَ تُرِيدُ أَنْ تَدْرُسَ العَرَبِيَّة.
-  \begin{itemize}
-  \item هَيَ تُرِيدُ دِرَاسةَ العَرَبِيَّة.
-  \end{itemize}
-
-\item لاَ أَسْتَطِيعُ أَنْ أَذْهَبَ مَعَكُمْ
-  \begin{itemize}
-  \item لاَ أَسْتَطِيعُ الذَّهَابَ مَعَكُمْ
-  \end{itemize}
-\item هُوَ يَتَعَلم العَرَبِيّة لِيَعْمَلَ فِي مِصْر.
-  \begin{itemize}
-  \item هُوَ يَتَعَلم العَرَبِيّة لِلْعَمَلِ فِي مِصْر.
-  \end{itemize}
-\item أَخِي لاَ يُرِيدُ كِتَابَة الوَاجِبْ
-  \begin{itemize}
-  \item أَخِي لاَ يُرِيدُ أَنْ يَكْتُبَ الوَاجِب
-  \end{itemize}
-\item ذَهَبْنَا إِلَى المَطْعَم لِنَأْكُلَ الطَاجِين المَغْرِبِيّْ.
-  \begin{itemize}
-  \item ذَهَبْنَا إِلَى المَطْعَم لِأَكْل الطَاجِين.
-  \end{itemize}
-\end{enumerate}
-
-
-\section{18.7.2018}
+% أَحِبُّ أَنْ أَسْكُنَ فِي مُرَّاكُش.
+% أُحِبُّ السَّكَنَ فِي مُرّاكُش.
+% هِيَ تُرِيدُ أَنْ تَدْرُسَ العَرَبِيَّة.
+% هَيَ تُرِيدُ دِرَاسةَ العَرَبِيَّة.
+% لاَ أَسْتَطِيعُ أَنْ أَذْهَبَ مَعَكُمْ
+% لاَ أَسْتَطِيعُ الذَّهَابَ مَعَكُمْ
+% هُوَ يَتَعَلم العَرَبِيّة لِيَعْمَلَ فِي مِصْر.
+% هُوَ يَتَعَلم العَرَبِيّة لِلْعَمَلِ فِي مِصْر.
+% أَخِي لاَ يُرِيدُ كِتَابَة الوَاجِبْ
+% أَخِي لاَ يُرِيدُ أَنْ يَكْتُبَ الوَاجِب
+% ذَهَبْنَا إِلَى المَطْعَم لِنَأْكُلَ الطَاجِين المَغْرِبِيّْ.
+% ذَهَبْنَا إِلَى المَطْعَم لِأَكْل الطَاجِين.
 
 
 
