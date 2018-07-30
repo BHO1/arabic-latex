@@ -1,0 +1,46 @@
+%% -*- mode: LaTeX; TeX-PDF-mode: nil; LaTeX-command: "xelatex " -*-
+\documentclass[a4paper]{article}
+
+%\usepackage{multicol}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{marginfit}
+\usepackage{abraces}
+%\setmainlanguage{english}
+%\setotherlanguage{arabic}
+
+\setmainlanguage{arabic}
+\setotherlanguage{english}
+
+%\newfontfamily\englishfont{Palatino}
+% \setmainlanguage{arabic}
+\newfontfamily\arabicfont[Script=Arabic,Scale=2]{Amiri}
+%
+%\usepackage{refenums}
+%\usepackage{gb4e}	   
+%\usepackage{covington}
+
+\begin{document}
+
+
+﷽
+
+
+%\newfontfamily\arabicfont[Script=Arabic,Scale=2]{KacstBook}
+\begin{center}
+  اللُغت العربية \textenglish{sprachkaffe}  في مدينة الربط
+\end{center}
+
+\section{\textenglish{23.7.2018}}
+
+\subsection{كُل: \textenglish{each/ever/all}}
+
+\fbox{%
+  \parbox{0.9\textwidth}{%
+  \textbf{\textenglish{each/every}} (\textenglish{indefinit noun} + كل) 
+  \par
+  \textbf{\textenglish{all}}(\textenglish{indefinit noun} + كل ) }%
+}
+
+
+\end{document}
